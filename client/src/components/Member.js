@@ -106,7 +106,7 @@ const Member = props => {
             <div className="my-3">
                 <div className="form-check">
                     <input id="credit" name="paymentMethod" type="radio" className="form-check-input"
-                           checked = {!editing}
+                           checked
                            required
                            onChange={e => setRole(false)}/>
                     <label className="form-check-label" htmlFor="credit"> Regular - can't delete members </label>
